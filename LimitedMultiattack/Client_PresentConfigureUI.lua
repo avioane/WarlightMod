@@ -33,7 +33,7 @@ function Client_PresentConfigureUI(rootParent)
 	if initialValue == nil then
 		initialValue = false;
 	end
-	InputReconnaisanceCard = UI.CreateCheckBox(horz).SetText('Activate when Playing Reconnaisance Card').SetIsChecked(initialValue);
+	InputReconnaisanceCard = UI.CreateCheckBox(horz).SetText('Activate when Playing Reconnaissance Card').SetIsChecked(initialValue);
 	horz = UI.CreateHorizontalLayoutGroup(rootParent);
 	initialValue = Mod.Settings.SpyCard;
 	if initialValue == nil then
